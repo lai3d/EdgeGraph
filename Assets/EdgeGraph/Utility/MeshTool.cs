@@ -161,7 +161,7 @@ namespace UtilityTools
                 mesh.triangles = triangles.ToArray();
 
                 mesh.RecalculateNormals();
-                mesh.Optimize();
+                ;
 
                 meshObject.mf.sharedMesh = mesh;
             }
@@ -207,7 +207,7 @@ namespace UtilityTools
                 mesh.triangles = triangles.ToArray();
 
                 mesh.RecalculateNormals();
-                mesh.Optimize();
+                ;
 
                 meshObject.mf.sharedMesh = mesh;
             }
